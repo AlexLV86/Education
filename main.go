@@ -22,4 +22,5 @@ func main() {
 	}
 	calcul := calc.NewCalculator()
 	fmt.Println(calcul.Calculate(n1, n2, op))
+	fmt.Println(calcul.Calculate(n1, n2, op))
 }
