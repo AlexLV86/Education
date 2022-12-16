@@ -21,6 +21,5 @@ func main() {
 		return
 	}
 	calcul := calc.NewCalculator()
-	fmt.Println("Результат вычислений: ")
 	fmt.Println(calcul.Calculate(n1, n2, op))
 }
